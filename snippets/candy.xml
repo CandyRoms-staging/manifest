@@ -26,9 +26,10 @@
 
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="candy" revision="14-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="candy" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr" remote="candy" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="candy" revision="c14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/8450" name="device_qcom_sepolicy_vndr" remote="candy" revision="c14-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/8550" name="device_qcom_sepolicy_vndr" remote="candy" revision="c14-caf-sm8550" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr" remote="candy" revision="c14-legacy-um" />
   
   <!-- External -->
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
