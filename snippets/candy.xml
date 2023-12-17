@@ -35,7 +35,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" remote="candy" />
+  <project path="frameworks/base1" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
 
   <!-- Google Mobile Services -->
