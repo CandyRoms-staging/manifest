@@ -42,7 +42,6 @@
   <project path="vendor/gms" name="LeddaZ/android_vendor_gms" remote="gitlab" revision="aosp-udc" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
 
   <!-- Manifest -->
