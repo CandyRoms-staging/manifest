@@ -87,7 +87,6 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/interfaces" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/DevCamera" />
