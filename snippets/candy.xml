@@ -56,6 +56,7 @@
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="candy" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="candy" />
