@@ -50,9 +50,9 @@
   <project path="manifest" name="Manifest" remote="candy" />
 
   <!-- NFC -->
-  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="lineage" groups="nxp" />
-  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="lineage" groups="nxp" />
-  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="lineage" groups="nxp" />
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="candy" groups="nxp" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="candy" groups="nxp" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="candy" groups="nxp" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
