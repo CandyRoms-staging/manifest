@@ -5,14 +5,6 @@
            fetch="https://github.com/candyroms-staging"
            revision="refs/heads/14" />
 
-  <remote  name="blaze-gitlab"
-           fetch="https://gitlab.com/projectblaze"
-           revision="refs/heads/14" />
-
-  <remote  name="blaze-gitea"
-           fetch="https://gitea.com/projectblaze"
-           revision="refs/heads/14" />
-
   <!-- Rootdir -->
   <project path="bionic" name="bionic" remote="candy" />
   <project path="art" name="art" remote="candy" />
@@ -49,13 +41,12 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="candy" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaze-gitea"/>
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="candy"/>
 
   <!-- System -->
-  <project path="system/core" name="system_core" remote="blaze-gitea" />
+  <project path="system/core" name="system_core" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
   <project path="system/vold" name="system_vold" remote="candy" />
-  <project path="system/update_engine" name="system_update_engine" remote="blaze" />
 
   <!-- Begin Extras -->
 
@@ -106,9 +97,7 @@
 
   <!-- Vendor -->
   <project path="vendor/candy" name="vendor_candy" revision="14" remote="candy" />
-  <project path="vendor/certification" name="vendor_certification" remote="blaze-gitea" />
   <project path="vendor/support" name="vendor_support" revision="14" remote="candy" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="blaze-gitea" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="candy" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="candy" />
 </manifest>
