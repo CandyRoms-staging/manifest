@@ -3,7 +3,7 @@
 
   <remote  name="candy"
            fetch="https://github.com/candyroms-staging"
-           revision="refs/heads/14" />
+           revision="refs/heads/c14" />
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" remote="candy" />
